@@ -6,7 +6,7 @@
 - [Classical Machine Learning](#classical-machine-learning)
 
 
-# Machine Learning
+> # Machine Learning
 ## Types of Machine Learning
 1. Classical Machine Learning
 2. Deep Learning(complex than classical machine learning)
