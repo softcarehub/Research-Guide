@@ -3,6 +3,7 @@
   - [Types of Machine Learning](#types-of-machine-learning)
   - [Requirements](#requirements)
   - [Learning Resources](#learning-resources)
+- [Jupyter Course for beginners](#jupyter-course-for-beginners)
 - [Classical Machine Learning](#classical-machine-learning)
 - [Deep Learning](#deep-learning)
 
@@ -38,23 +39,6 @@ or google Colab
 ## flower detection
 1. Features selection so that we can distinguish between two flower
 2. 
-
-> # Classical Machine Learning
-- Three types of Machine Learning
-1. `Supervised Learning`
-- Level required(output): Level means what we are going to predict that we know the value
-- classification, regression problem
-- Develop predictive model based on both input and output data
-2. `Unsupervised Learning`
-- Not Level required(output)
-- clustering
-- If there don't have level then it will be unsupervised learning
-- Group and interpret data based only on input data
-3. `Reinforcement Learning`
-- first learn then take action
-
-> # Deep Learning
-
 # Jupyter Course for beginners 
 1. Jupyter notebook- introduction
 ![Jupyter-Notebook-introduction](images/1Jupyter-notebook-introduction.png)
@@ -78,3 +62,20 @@ or google Colab
 13. Import notebook into jupyter notebook
 14. open already created Notebook in jupyter notebook
 15. keyboard shortcuts in jupyter notebook 
+> # Classical Machine Learning
+- Three types of Machine Learning
+1. `Supervised Learning`
+- Level required(output): Level means what we are going to predict that we know the value
+- classification, regression problem
+- Develop predictive model based on both input and output data
+2. `Unsupervised Learning`
+- Not Level required(output)
+- clustering
+- If there don't have level then it will be unsupervised learning
+- Group and interpret data based only on input data
+3. `Reinforcement Learning`
+- first learn then take action
+
+> # Deep Learning
+
+
