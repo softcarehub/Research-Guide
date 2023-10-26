@@ -4,9 +4,9 @@
   - [Requirements](#requirements)
   - [Learning Resources](#learning-resources)
 - [Classical Machine Learning](#classical-machine-learning)
+- [Deep Learning](#deep-learning)
 
-
-> # Machine Learning
+# Machine Learning
 ## Types of Machine Learning
 1. Classical Machine Learning
 2. Deep Learning(complex than classical machine learning)
@@ -39,7 +39,7 @@ or google Colab
 1. Features selection so that we can distinguish between two flower
 2. 
 
-# Classical Machine Learning
+> # Classical Machine Learning
 - Three types of Machine Learning
 1. `Supervised Learning`
 - Level required(output): Level means what we are going to predict that we know the value
@@ -53,4 +53,28 @@ or google Colab
 3. `Reinforcement Learning`
 - first learn then take action
 
+> # Deep Learning
 
+# Jupyter Course for beginners 
+1. Jupyter notebook- introduction
+![Jupyter-Notebook-introduction](images/1Jupyter-notebook-introduction.png)
+- 
+2. Install anaconda on windows for jupyter notebook
+![Jupyter-Notebook-introduction](images/2anaconda.png)
+
+3. Lunch jupyter notebook for the first time
+- open anaconda then run jupyter notebook then create folder then file then run program
+4. create a new notebook in jupyter 
+- create a new notebook in create folder
+5. Working with cells in jupyter notebook
+- 
+6. Types of cells in jupyter
+7. Add Heading in jupyter notebook
+8. Show line numbers in jupyter notebook
+9. setup Numpy in jupyter notebook
+10. setup pandas in jupyter notebook
+11. setup Matlab in jupyter notebook
+12. Download notebook in various formats on jupyter 
+13. Import notebook into jupyter notebook
+14. open already created Notebook in jupyter notebook
+15. keyboard shortcuts in jupyter notebook 
