@@ -79,3 +79,14 @@ or google Colab
 > # Deep Learning
 
 
+
+## Project Report
+- Introduction 
+- Proposed methodology 
+- Dataset Description 
+- preprocessing() 
+- Image segmentation(Feature extraction) or feature engineering 
+- Method/model description or method apply 
+- Results Analysis 
+- conclusion 
+
