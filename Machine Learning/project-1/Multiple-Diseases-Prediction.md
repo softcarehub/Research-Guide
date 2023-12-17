@@ -1,6 +1,7 @@
 # Table of Contents 
 - [Heat Diseases working step](#heat-diseases-working-step)
 - [Ensemble methods in machine learning](#ensemble-methods-in-machine-learning)
+- [what's EDA?](#whats-eda)
 
 ## Basic understanding
 - what's abstract: a concise summary of a research paper or entire thesis. 
@@ -110,3 +111,7 @@
 - `Advantages: `Effective in high-dimensional spaces, memory-efficient.
 - `Disadvantages:` Not suitable for larger datasets, sensitive to noise.
 ### Step 10: Resources for Further Learning
+
+# what's EDA?
+- why?
+   - Exploratory Data Analysis (EDA) is a vital tool for data scientists that helps them understand data characteristics, detect errors, and validate assumptions. EDA is an important first step in any data analysis.
