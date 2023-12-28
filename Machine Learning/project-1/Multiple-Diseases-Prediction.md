@@ -2,6 +2,7 @@
 - [Heat Diseases working step](#heat-diseases-working-step)
 - [Ensemble methods in machine learning](#ensemble-methods-in-machine-learning)
 - [what's EDA?](#whats-eda)
+- [How to improve the performance in Machine Learning?](#how-to-improve-the-performance-in-machine-learning)
 
 ## Basic understanding
 - what's abstract: a concise summary of a research paper or entire thesis. 
@@ -74,6 +75,8 @@
 ## algorithm
 1. SVM
  ### Step 1: Introduction to SVM
+- Two types of SVMs are 
+1. Support Vector Machines (SVM) with different kernels, specifically the linear kernel (SVM with a linear kernel) and the radial basis function (RBF) kernel (often denoted as SVM with an RBF kernel).g
 - What's SVM?
 ![What's SVM?](images/whatsSVM.png)
 - `Objective:` SVM is a machine learning algorithm used for classification and regression.
@@ -115,3 +118,37 @@
 # what's EDA?
 - why?
    - Exploratory Data Analysis (EDA) is a vital tool for data scientists that helps them understand data characteristics, detect errors, and validate assumptions. EDA is an important first step in any data analysis.
+
+# How to improve the performance in Machine Learning?
+- Improving the performance of a machine learning model involves several strategies. Here are some suggestions to potentially enhance the accuracy of your stacking ensemble model:
+
+## Feature Engineering:
+
+- Analyze and preprocess your features. Ensure that they are scaled appropriately, and handle any missing values or outliers. Consider creating new features that might capture important information for the task.
+## Hyperparameter Tuning:
+
+- Experiment with different hyperparameter values for each individual classifier in your stacking ensemble. Grid search or random search can be useful for this purpose. Tune hyperparameters for the meta-classifier as well.
+## Model Selection:
+
+- Try different base classifiers or meta-classifiers in your stacking ensemble. Different algorithms may perform better on your specific dataset. Experiment with more advanced models or ensemble techniques.
+## Ensemble Diversity:
+
+- Ensure that the base classifiers in your ensemble are diverse. If they are similar, the ensemble may not provide significant improvements. Try adding different types of classifiers to the ensemble.
+## Data Augmentation:
+
+- If applicable, consider data augmentation techniques to artificially increase the size of your training dataset.
+## Ensemble Size:
+
+- Experiment with the number of base classifiers in your ensemble. Sometimes, a larger ensemble can lead to better performance.
+## Cross-Validation:
+
+- Ensure that you are using cross-validation effectively during the training process to estimate the model's performance more reliably.
+## Learning Curves:
+
+- Plot learning curves to understand if your model is overfitting or underfitting. This can help you make decisions about model complexity.
+## Feature Importance:
+
+- Use techniques to understand feature importance. It might help you focus on the most relevant features and potentially improve the model.
+## Ensemble Methods Library:
+
+- Explore other ensemble methods libraries, such as mlxtend or scikit-learn, for additional techniques or models that might improve performance.Remember, it's important to iterate through these steps carefully and monitor the impact of each change on the model's performance. Keep in mind that achieving a significantly higher accuracy might also require additional data or addressing the inherent complexity of the prediction task.
