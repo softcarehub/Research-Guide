@@ -2,6 +2,7 @@
 - [Basic understanding](#basic-understanding)
 - [Heat Diseases working step](#heat-diseases-working-step)
 - [Ensemble methods in machine learning](#ensemble-methods-in-machine-learning)
+- [Algorithm](#algorithm)
 - [what's EDA?](#whats-eda)
 - [How to improve the performance in Machine Learning?](#how-to-improve-the-performance-in-machine-learning)
 - [Proposed methodology for Machine Learning](#proposed-methodology-for-machine-learning)
@@ -82,8 +83,13 @@
 - Ultimately, the effectiveness of ensembling depends on the dataset, the choice of models, and the specific problem you are trying to solve. It's often a good idea to experiment with different combinations and observe how the ensemble performs on validation or test data.
  
 
-## algorithm
-1. SVM
+# Algorithm
+## Random Forest
+- ![Random Forest](images/Random_Forest.png)
+## Adaboost algorithm
+- ![Adaboost ](images/adaboost.png)
+
+## SVM
  ### Step 1: Introduction to SVM
 - Two types of SVMs are 
 1. Support Vector Machines (SVM) with different kernels, specifically the linear kernel (SVM with a linear kernel) and the radial basis function (RBF) kernel (often denoted as SVM with an RBF kernel).g
