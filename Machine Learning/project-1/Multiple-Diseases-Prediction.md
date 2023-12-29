@@ -11,11 +11,14 @@
 - what's Introduction:  
 - What is proposed methodology in thesis? 
   - Methodology refers to the overall rationale and strategy of your thesis project. It involves studying the theories or principles behind the methods used in your field so that you can explain why you chose a particular method for your research approach.
-- ![difference between classification vs regression vs clustering](images/Classification_Regression_Clustering.png)
 - difference between classification vs regression clustering?
 - The main difference between classification and regression algorithms is the type of values they predict: 
   - Classification: Predicts discrete values, such as "Male or Female", "True or False", and "Spam or Not Spam".
   - Regression: Predicts continuous values, such as "price", "salary", and "age". 
+  - clustering: For data analysis
+- ![difference between classification vs regression vs clustering](images/classification%20vs%20clustering.png)
+- ![difference between classification vs regression vs clustering](images/Classification_Regression_Clustering.png)
+
 ## Heat Diseases working step 
 1. Machine Learning Model 
 - going to build a logistic regression  machine learning model here. 
