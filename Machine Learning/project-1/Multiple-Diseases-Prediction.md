@@ -1,20 +1,23 @@
 # Table of Contents 
+- [Basic understanding](#basic-understanding)
 - [Heat Diseases working step](#heat-diseases-working-step)
 - [Ensemble methods in machine learning](#ensemble-methods-in-machine-learning)
 - [what's EDA?](#whats-eda)
 - [How to improve the performance in Machine Learning?](#how-to-improve-the-performance-in-machine-learning)
+- [Proposed methodology for Machine Learning](#proposed-methodology-for-machine-learning)
 
 ## Basic understanding
 - what's abstract: a concise summary of a research paper or entire thesis. 
-- what's Introduction: 
-- What is proposed methodology in thesis?
+- what's Introduction:  
+- What is proposed methodology in thesis? 
   - Methodology refers to the overall rationale and strategy of your thesis project. It involves studying the theories or principles behind the methods used in your field so that you can explain why you chose a particular method for your research approach.
-- difference between classification vs regression?
+- ![difference between classification vs regression vs clustering](images/Classification_Regression_Clustering.png)
+- difference between classification vs regression clustering?
 - The main difference between classification and regression algorithms is the type of values they predict: 
   - Classification: Predicts discrete values, such as "Male or Female", "True or False", and "Spam or Not Spam".
   - Regression: Predicts continuous values, such as "price", "salary", and "age". 
-## Heat Diseases working step
-1. Machine Learning Model
+## Heat Diseases working step 
+1. Machine Learning Model 
 - going to build a logistic regression  machine learning model here. 
 - so build the model need patient data set 
 - once dataset is ready then have to do preprocessing of the dataset 
@@ -155,3 +158,29 @@
 ## Ensemble Methods Library:
 
 - Explore other ensemble methods libraries, such as mlxtend or scikit-learn, for additional techniques or models that might improve performance.Remember, it's important to iterate through these steps carefully and monitor the impact of each change on the model's performance. Keep in mind that achieving a significantly higher accuracy might also require additional data or addressing the inherent complexity of the prediction task.
+
+# Proposed methodology for Machine Learning
+-  In proposing the methodology for multi-disease prediction using machine learning, consider the following steps and aspects:
+
+1. Data Collection:
+
+- Clearly define the datasets you will use for each disease (diabetes, heart disease, Parkinson's).
+- Specify the sources of data, whether it's from healthcare databases, research institutions, or other reliable repositories.
+- Describe the data attributes, ensuring they align with the specific requirements of each disease prediction task.
+2. Data Preprocessing:
+- Outline the preprocessing steps, including data cleaning, handling missing values, and addressing class imbalances.
+- Detail any feature engineering techniques, such as extracting relevant features or creating new variables.
+3. Algorithm Selection:
+- Justify the choice of machine learning algorithms for each disease. For example, explain why you're using Support Vector Machines for diabetes and Parkinson's, and Logistic Regression for heart disease.
+- Consider the strengths and weaknesses of each algorithm in the context of the specific disease characteristics.
+4. Model Training and Evaluation:
+
+- Describe the training process for each model, specifying hyperparameters and optimization techniques.
+- Outline the evaluation metrics you'll use for each disease. Common metrics include accuracy, precision, recall, and F1-score.
+- Implement cross-validation to ensure robust model performance assessment.
+5. Ensemble Methods:
+- If you're using ensemble methods like stacking, describe how you combine the predictions of multiple models.
+- Explain the rationale behind ensemble methods and how they contribute to enhancing prediction accuracy.
+6. Validation and Generalization:
+- Detail how you plan to validate the models, ensuring they generalize well to new and unseen data.
+- Consider techniques like k-fold cross-validation to assess model performance across different subsets of the data.
