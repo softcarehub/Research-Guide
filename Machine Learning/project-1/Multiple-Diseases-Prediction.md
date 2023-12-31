@@ -1,10 +1,11 @@
 # Table of Contents 
 - [Basic understanding](#basic-understanding)
-- [Heat Diseases working step](#heat-diseases-working-step)
+- [Heart Diseases working step](#heat-diseases-working-step)
 - [Ensemble methods in machine learning](#ensemble-methods-in-machine-learning)
-- [Algorithm](#algorithm)
-- [what's EDA?](#whats-eda)
-- [How to improve the performance in Machine Learning?](#how-to-improve-the-performance-in-machine-learning)
+- [What's Literature Review](#whats-literature-review)
+- [Algorithm](#algorithm)   
+- [what's EDA?](#whats-eda)   
+- [How to improve the performance in Mach ine Learning?](#how-to-improve-the-performance-in-machine-learning)
 - [Proposed methodology for Machine Learning](#proposed-methodology-for-machine-learning)
 - [proposed methodology](#proposed-methodology)
 
@@ -21,7 +22,7 @@
 - ![difference between classification vs regression vs clustering](images/classification%20vs%20clustering.png) 
 - ![difference between classification vs regression vs clustering](images/Classification_Regression_Clustering.png) 
 
-## Heat Diseases working step 
+## Heart Diseases working step 
 1. Machine Learning Model 
 - going to build a logistic regression  machine learning model here. 
 - so build the model need patient data set 
@@ -81,7 +82,23 @@
 
 ### Motivation
 - Ultimately, the effectiveness of ensembling depends on the dataset, the choice of models, and the specific problem you are trying to solve. It's often a good idea to experiment with different combinations and observe how the ensemble performs on validation or test data.
- 
+# What's Literature Review
+  
+- A literature review is a summary of previously published works on a topic. It can be a full scholarly paper or a section of a scholarly work
+- Literature reviews are often written as part of a thesis, dissertation, or research paper. They can also be common in a research proposal or prospectus. 
+- Literature reviews serve multiple purposes, including: 
+  - Developing research ideas
+  - Identifying knowledge gaps
+  - Synthesizing new concepts
+  - Identifying new research directions
+  - Elaborating research hypotheses/questions
+  - Developing new theories
+  - Disseminating research findings
+- Literature reviews help researchers establish a theoretical foundation for their own study and provide a context for their research. 
+- Literature reviews can also help identify errors to avoid, highlight the strengths, weaknesses, and controversies in the field of study, and identify the subject experts. 
+
+
+
 
 # Algorithm
 ## Random Forest
