@@ -8,7 +8,12 @@
 
 ## Basic understanding of `Thesis` from my experience during thesis
 1. which content should I start first to write in thesis paper
+   - Literature Review
    - Experimental Results and Discussion.
    - Then Research Methodology
    - 
+## How to read the Research paper?
+1. First read conclusion of the paper+ Abstract 
+2. Methodology 
+3. 
 

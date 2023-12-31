@@ -42,6 +42,9 @@
 
 ## Ensemble methods in machine learning
 ### What is Ensemble method?
+- [read more](https://corporatefinanceinstitute.com/resources/data-science/ensemble-methods/)
+- Ensemble methods are techniques that aim at improving the accuracy of results in models by combining multiple models instead of using a single model.
+- ![What's SVM?](images/ensemble1.png)
 - ![What's SVM?](images/ensemble.png)
 - `combine multiple models` (holding with best accuracy not like it) to improve the accuracy of results. 
 - In ensemble methods in machine learning, the idea is to combine multiple models to improve overall predictive performance. Ensemble methods can be broadly categorized into two types: bagging and boosting. Ensemble learning helps improve machine learning results by combining several models. This approach allows the production of better predictive performance compared to a single model. Basic idea is to learn a set of classifiers (experts) and to allow them to vote. Advantage : Improvement in predictive accuracy.
@@ -97,8 +100,33 @@
 - Literature reviews help researchers establish a theoretical foundation for their own study and provide a context for their research. 
 - Literature reviews can also help identify errors to avoid, highlight the strengths, weaknesses, and controversies in the field of study, and identify the subject experts. 
 
+## how to write literature review
+- step-1: copy abstract 
+- step-2: paste abstract in chatGPT asked for sumarization it in 3/4 sentence 
+- step-3: Now paraphase it Quilbot
+- step-4: Then it's ready to use
 
 
+## how to mention name in literature review 
+- Example: 
+   - Tama et al. [35] developed an ensemble model for heart disease diagnosis. Random forest, gradient boosting, and extreme gradient boosting classifers were used in constructing the ensemble model.
+   - In [1], auhors have implemented Wavelet analysis support vector machine (SVM) as paired approach for efficient classification 
+   accuracy of 90.32%
+   - . In [2], author have investigated several machine learning models random forests(RF), logistic regression(LR), XGboost and upport vector machines(SVM). Model-free machine learning model achived 80% accuracy.
+   - K. Polaraju et al, [7] proposed Prediction of Heart Disease using Multiple Regression Model and it proves that Multiple Linear Regression is appropriate for predicting heart disease chance.
+   - Marjia et al, [8] developed heart disease prediction using KStar, j48, SMO, and Bayes Net and Multilayer perception using WEKA software.
+   - MeghaShahi et al, [11] suggested Heart Disease Prediction System using Data Mining Techniques.
+   - Chala Beyene et al, [12] recommended Prediction and Analysis the occurrence of Heart Disease Using Data Mining Techniques.
+   - Sairabi H.Mujawar et al, [24] used k-means and naïve bayes to predict heart disease.
+   - The author studies heart disease using the random forest in [1] with the Cleveland dataset.
+   - In [2], the author has generated specific rules based on this PSO algorithm and evaluated different rules to get a more accurate rule for heart disease identification
+   - Backpropagation neural network for heart disease prediction was discussed in [3].
+   - A cognitive approach is carried out in [10] for heart disease prediction. In this work, five machine learning algorithms are considered for prediction, and all are evaluated with accuracy
+
+- THIS COMPARISON  CAN BE WRITE WHEN WRITTING THE REVEIW PAPER
+- ![Literature Reveiw](images/literature%20reveiew.png)
+- ![Literature Reveiw](images/literature_review.png)
+- ![Literature Reveiw](images/lr.png)
 
 # Algorithm
 ## Random Forest
