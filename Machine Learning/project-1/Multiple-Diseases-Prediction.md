@@ -30,8 +30,9 @@
 - This project title:
   - Predictive Precision: Harnessing Ensemble Learning for Diabetes, Heart Disease, and Parkinson's Prediction
   - From Algorithms to Applications: Enhancing Disease Prediction Models for Improved Public Health
-  - Revolutionizing Healthcare: Ensemble Learning for Accurate Prediction of Diabetes, Heart Disease, and Parkinson's
-  - Web-Integrated Disease Prediction: A Comprehensive Ensemble Learning Approach in Healthcare
+  - Revolutionizing Healthcare: Ensemble Learning for Accurate Prediction of Diabetes, Heart Disease, and Parkinson's 
+  - Web-Integrated Disease Prediction: A Comprehensive Ensemble Learning Approach in Healthcare 
+  - AN ENSEMBLE APPROACH TO PREDICT MULTI-DISEASE USING MACHINE LEARNING AND WEB APP
 ## Heart Diseases working step 
 1. Machine Learning Model 
 - going to build a logistic regression  machine learning model here. 
