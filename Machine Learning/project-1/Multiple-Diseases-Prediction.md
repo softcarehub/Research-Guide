@@ -8,6 +8,7 @@
 - [How to improve the performance in Mach ine Learning?](#how-to-improve-the-performance-in-machine-learning)
 - [Proposed methodology for Machine Learning](#proposed-methodology-for-machine-learning)
 - [proposed methodology](#proposed-methodology)
+- [how to write the paper title](#how-to-write-the-paper-title)
 
 ## Basic understanding
 - what's abstract: a concise summary of a research paper or entire thesis. 
@@ -21,6 +22,11 @@
   - clustering: For data analysis 
 - ![difference between classification vs regression vs clustering](images/classification%20vs%20clustering.png) 
 - ![difference between classification vs regression vs clustering](images/Classification_Regression_Clustering.png) 
+
+# how to write the paper title
+1. First give two title of the paper in chatGPT by making myself and ask for title 
+2. after writing the total paper  then copy abstract and paste it in chatGPT then asked for 10 title: 
+  - Example: I will provide ready abstract of this title then you will suggest 10 different types of title. ok?
 
 ## Heart Diseases working step 
 1. Machine Learning Model 
@@ -101,8 +107,8 @@
 - Literature reviews can also help identify errors to avoid, highlight the strengths, weaknesses, and controversies in the field of study, and identify the subject experts. 
 
 ## how to write literature review
-- step-1: copy abstract 
-- step-2: paste abstract in chatGPT asked for sumarization it in 3/4 sentence 
+- step-1: copy abstract & conclusion(optional)
+- step-2: paste abstract & conclusion(optional) in chatGPT asked for summarization it in 4/5 sentence 
 - step-3: Now paraphase it Quilbot
 - step-4: Then it's ready to use
 
