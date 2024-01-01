@@ -27,7 +27,11 @@
 1. First give two title of the paper in chatGPT by making myself and ask for title 
 2. after writing the total paper  then copy abstract and paste it in chatGPT then asked for 10 title: 
   - Example: I will provide ready abstract of this title then you will suggest 10 different types of title. ok?
-
+- This project title:
+  - Predictive Precision: Harnessing Ensemble Learning for Diabetes, Heart Disease, and Parkinson's Prediction
+  - From Algorithms to Applications: Enhancing Disease Prediction Models for Improved Public Health
+  - Revolutionizing Healthcare: Ensemble Learning for Accurate Prediction of Diabetes, Heart Disease, and Parkinson's
+  - Web-Integrated Disease Prediction: A Comprehensive Ensemble Learning Approach in Healthcare
 ## Heart Diseases working step 
 1. Machine Learning Model 
 - going to build a logistic regression  machine learning model here. 
@@ -114,6 +118,8 @@
 
 
 ## how to mention name in literature review 
+
+- `I write:` Mahajan, P., et al. [12] this study explores the performance of ensemble learning techniques, including bagging, boosting, stacking, and voting, in disease prediction models for highly researched diseases such as diabetes, skin disease, kidney disease, liver disease, and heart conditions. 
 - Example: 
    - Tama et al. [35] developed an ensemble model for heart disease diagnosis. Random forest, gradient boosting, and extreme gradient boosting classifers were used in constructing the ensemble model.
    - In [1], auhors have implemented Wavelet analysis support vector machine (SVM) as paired approach for efficient classification 
