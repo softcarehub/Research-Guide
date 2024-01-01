@@ -2,6 +2,7 @@
 - [Basic understanding](#basic-understanding)
 - [Heart Diseases working step](#heat-diseases-working-step)
 - [Ensemble methods in machine learning](#ensemble-methods-in-machine-learning)
+- [How to write introduction in a research paper](#how-to-write-introduction-in-a-research-paper)
 - [What's Literature Review](#whats-literature-review)
 - [Algorithm](#algorithm)   
 - [what's EDA?](#whats-eda)   
@@ -96,6 +97,25 @@
 
 ### Motivation
 - Ultimately, the effectiveness of ensembling depends on the dataset, the choice of models, and the specific problem you are trying to solve. It's often a good idea to experiment with different combinations and observe how the ensemble performs on validation or test data.
+# How to write introduction in a research paper
+1. Overall Context:
+   - The introduction begins by highlighting the transformative role of machine learning in healthcare for early disease prediction.
+2. Focus of the study:
+   - It specifies the study's focus on predicting diabetes, heart disease, and Parkinson's disease, given their societal impact and unique challenges.
+3. Objective and Approach:
+   - The objective is to employ an ensemble approach, utilizing eleven machine learning models, to enhance the precision of disease prediction for the selected health conditions
+4. Significance of Chosen Diseases:
+   - The choice of diseases is strategic, reflecting their prevalence and societal impact, motivating the need for tailored predictive models.
+5. Ensemble Approach and Model Selection:
+  - The study uses Logistic Regression, KNN, SVM, GaussianNB, Decision Tree, Random Forest, AdaBoost, GB, XGB, Extra Tree, and Stacking to predict diseases, with a comparative analysis to identify optimal models for each.
+6. Research Findings:
+  - Notable findings include Random Forest for diabetes, Adaboost for heart disease, and a Stacking ensemble model for Parkinson's disease, emphasizing disease-specific model nuances
+7. Practical Implementation:
+  - Beyond analysis, the research integrates the best-performing models into a web app, showcasing a commitment to translating insights into accessible tools for healthcare practitioners and the public.
+8. Potential Impact:
+  - The integration of machine learning with a user-friendly web app is poised to democratize predictive healthcare, contributing to widespread access to accurate disease predictions and improved public health outcomes.
+- ![introduction](images/introduction.png)
+
 # What's Literature Review
   
 - A literature review is a summary of previously published works on a topic. It can be a full scholarly paper or a section of a scholarly work
