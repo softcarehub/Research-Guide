@@ -147,6 +147,7 @@
 
 - `I write:` Mahajan, P., et al. [12] this study explores the performance of ensemble learning techniques, including bagging, boosting, stacking, and voting, in disease prediction models for highly researched diseases such as diabetes, skin disease, kidney disease, liver disease, and heart conditions. 
 - Example: 
+   - Reference [28] proposed a logistic regression (LR) based approach of machine learning for heart disease prediction. 
    - Tama et al. [35] developed an ensemble model for heart disease diagnosis. Random forest, gradient boosting, and extreme gradient boosting classifers were used in constructing the ensemble model.
    - In [1], auhors have implemented Wavelet analysis support vector machine (SVM) as paired approach for efficient classification 
    accuracy of 90.32%
