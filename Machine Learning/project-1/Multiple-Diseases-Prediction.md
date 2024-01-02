@@ -11,7 +11,12 @@
 - [proposed methodology](#proposed-methodology)
 - [how to write the paper title](#how-to-write-the-paper-title)
 
-## Basic understanding
+# Question I can Face: 
+1. why are you working with all the disease together
+  - I can apply similar approach for all disease like I applied same model for each disease.
+2.  
+
+# Basic understanding
 - what's abstract: a concise summary of a research paper or entire thesis. 
 - what's Introduction:  
 - What is proposed methodology in thesis? 
