@@ -367,3 +367,38 @@ Rationale Behind Ensemble Methods:
 Ensemble methods, such as stacking, capitalize on the concept of "wisdom of the crowd." Each base model may have its strengths and weaknesses, and ensemble methods strategically leverage the diverse perspectives of these models to arrive at a more comprehensive and accurate prediction. This approach is especially beneficial when facing challenges such as dataset noise, model bias, or the complexity of the underlying patterns. Ensemble methods contribute to the stability and reliability of predictions, making them a valuable asset in the pursuit of accurate multi-disease prediction.
 ## 3.4.5 Validation and Generalization 
 To ensure the validity and generalization of the predictive models, a thorough validation process is employed. The models are tested on unseen data, simulating real-world scenarios. K-fold cross-validation is crucial in this phase, as it assesses model performance across different subsets of the data, reducing the risk of bias introduced by specific data splits. The choice of k (number of folds) is influenced by the dataset's size and characteristics. Additionally, attention is given to potential overfitting, ensuring that the models generalize well to diverse patient populations and healthcare settings. This comprehensive validation strategy aims to provide confidence in the models' ability to make accurate predictions beyond the training data, emphasizing their practical utility in real-world healthcare applications. 
+
+# Dataset analysis and results part
+   video making task(data analysis, result) 
+
+Google site 
+dataset in excel 
+code 
+Result 
+step-1:
+
+Assalamualaikum, I am Md. Bariul Munshi. My  ID 201-15-3314.  My thesis title is:..
+
+In this video I will explain two part of my research based  project: data analysis & result part 
+
+Now I am going to give dataset information of about them.
+
+step-2:
+
+I  collected three datasets from kaggle which is diabetes disease, heart disease and  parkinson's disease.  
+
+In my  diabetes disease dataset, It consist of  8 feature variables and one target variable which  named is outcome. 1 indicate that patients has diabetes and 0 indicate that patients no diabetes. The dataset has   768 female patients data  whose aged 21 and above.  
+
+step-3: 
+
+Now I will explain heart disease dataset. This dataset consist of 13 feature variable and one target variable which name target here 1 indicate that patients has heart disease and 0 indicate no heart disease.
+
+Now I will explain last dataset  which is 
+
+step-4: 
+
+parkinson's disease dataset. This dataset has 23 column including feature attribute and one target attribute which name is status. here 1 define the person has parkinon's disease and 0  define no parkinson's disease. 
+
+step-5:
+
+In my coding part I split 
