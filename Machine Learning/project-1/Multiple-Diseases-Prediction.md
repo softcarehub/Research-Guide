@@ -12,7 +12,7 @@
 - [how to write the paper title](#how-to-write-the-paper-title)
 
 # Question I can Face: 
-1. why are you working with all the disease together
+1. why are you working with all the disease together.
   - I can apply similar approach for all disease like I applied same model for each disease.
 # Basic understanding 
 - what's abstract: a concise summary of a research paper or entire thesis. 
