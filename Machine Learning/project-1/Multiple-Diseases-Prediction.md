@@ -15,9 +15,10 @@
 1. why are you working with all the disease together
   - I can apply similar approach for all disease like I applied same model for each disease.
 2.  
-
-# Basic understanding
+ 
+# Basic understanding 
 - what's abstract: a concise summary of a research paper or entire thesis. 
+- Feature selection techniques in machine learning involve selecting a subset of relevant features from the original set
 - what's Introduction:  
 - What is proposed methodology in thesis? 
   - Methodology refers to the overall rationale and strategy of your thesis project. It involves studying the theories or principles behind the methods used in your field so that you can explain why you chose a particular method for your research approach.
@@ -401,4 +402,4 @@ parkinson's disease dataset. This dataset has 23 column including feature attrib
 
 step-5:
 
-In my coding part I split 
+In my coding part I split  
