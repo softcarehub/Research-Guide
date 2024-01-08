@@ -14,13 +14,14 @@
 # Question I can Face: 
 1. why are you working with all the disease together
   - I can apply similar approach for all disease like I applied same model for each disease.
-2.  
- 
 # Basic understanding 
 - what's abstract: a concise summary of a research paper or entire thesis. 
-- Feature selection techniques in machine learning involve selecting a subset of relevant features from the original set
+- `Correlation:` measures the statistical relationship between two variables.
+-` Feature selection:` techniques in machine learning involve selecting a subset of relevant features from the original set
+- In summary, correlation is a statistical measure of the relationship between variables, and understanding this relationship is crucial for effective feature selection. By considering correlation during feature selection, one can choose a subset of features that provides the most relevant and non-redundant information for building accurate predictive models.
 - what's Introduction:  
 - What is proposed methodology in thesis? 
+- Correlation analysis helps assess the strength and direction of the linear relationship between each feature and the target variable. 
   - Methodology refers to the overall rationale and strategy of your thesis project. It involves studying the theories or principles behind the methods used in your field so that you can explain why you chose a particular method for your research approach.
 - difference between classification vs regression vs clustering?
 - The main difference between classification and regression algorithms is the type of values they predict: 
