@@ -10,7 +10,7 @@
 - [Proposed methodology for Machine Learning](#proposed-methodology-for-machine-learning)
 - [proposed methodology](#proposed-methodology)
 - [how to write the paper title](#how-to-write-the-paper-title)
-
+- Sir please consider it as minor mistake I will fix it. 
 # Question I can Face: 
 1. why are you working with all the disease together.
   - I can apply similar approach for all disease like I applied same model for each disease.
