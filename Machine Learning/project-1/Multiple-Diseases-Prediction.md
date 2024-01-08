@@ -10,6 +10,81 @@
 - [Proposed methodology for Machine Learning](#proposed-methodology-for-machine-learning)
 - [proposed methodology](#proposed-methodology)
 - [how to write the paper title](#how-to-write-the-paper-title)
+
+# Question and Answer for pre defense
+1. why I done this project ?
+- Answer: normalize prediction system, improve outcome, bridge the gap  research and application, overcome the limitations of traditional methods. 
+2. For whom and how they can be beneficial ?
+- Answer: for people who find the process too complex. without clinical manifestation 
+3. How much data used & how it collected ?
+- Answer: Diabetes-768 & 9, Heart-303 & 14, Parkinson's-195 & 22 
+4. How to do preprocessing csv data? 
+ - step 1: Load dataset 
+   ```sh
+    import pandas as pd
+
+    # Load CSV data into a DataFrame
+    df = pd.read_csv('your_data.csv')
+   ```
+ - step 2: Explore dataset
+   ```sh
+    # Display basic information about the DataFrame
+    print(df.info())
+
+    # Display summary statistics
+    print(df.describe())
+   ```
+ - step 3: Handle missing value 
+   ```sh 
+    # Check for missing values
+    print(df.isnull().sum())
+
+    # Handle missing values (example: replace with mean)
+    df.fillna(df.mean(), inplace=True)
+   ```
+ - step 4: Remove duplicates values 
+   ```sh 
+    # Remove duplicate rows
+    df.drop_duplicates(inplace=True)
+   ```
+ - step 5: convert data types 
+   ```sh
+    # Convert data types (example: convert 'column_name' to numeric)
+    df['column_name'] = pd.to_numeric(df['column_name'], errors='coerce')
+   ```
+ - step 6: Handle Categorical Data:
+   ```sh
+     # One-hot encoding for categorical variables
+     df = pd.get_dummies(df, columns=['categorical_column'])
+   ```
+ - step 7: Normalize/Standardize Numerical Features:
+   ```sh 
+     from sklearn.preprocessing import MinMaxScaler
+
+     # Normalize numerical features
+     scaler = MinMaxScaler()
+     df[['numerical_feature']] = scaler.fit_transform(df[['numerical_feature']])
+   ```
+ - step 8: Feature Engineering:
+   ```sh
+     # Example: Extract year from a date column
+     df['year'] = pd.to_datetime(df['date_column']).dt.year
+   ```
+ - step 9: Remove Unnecessary Columns:
+   ```sh 
+     # Drop unnecessary columns
+     df.drop(['unnecessary_column'], axis=1, inplace=True)
+   ```
+- step-10: Save Preprocessed Data:
+   ```sh
+     # Save preprocessed data to a new CSV file
+     df.to_csv('preprocessed_data.csv', index=False)
+   ```
+5. Confusion Matrix, precision, Recall, F1-score & ROC-score
+   - `Precision` focuses on the accuracy of positive predictions
+   - 
+6. what's MAE?
+   - MAE calculates the average absolute difference between the predicted and actual values.
 - Sir please consider it as minor mistake I will fix it. 
 # Question I can Face: 
 1. why are you working with all the disease together.
