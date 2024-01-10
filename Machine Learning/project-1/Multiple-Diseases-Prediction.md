@@ -11,6 +11,17 @@
 - [proposed methodology](#proposed-methodology)
 - [how to write the paper title](#how-to-write-the-paper-title)
 
+
+# what's EDA?
+- why?
+   - Exploratory Data Analysis (EDA) is a vital tool for data scientists that helps them understand data characteristics, detect errors, and validate assumptions. EDA is an important first step in any data analysis. 
+   - Performing EDA in machine learning typically involves preprocessing the data by handling missing values, outliers, and feature scaling
+- `my project`
+  - `correlation analysis` for understand the relation between features variable and target variable.
+  - To visualize the distribution of a dataset, I apply `histogram analysis `
+  - `box plot:` quickly identify mean values
+  - `Pairplot visualizes `given data to find the relationship between them where the variables can be continuous or categorical.
+
 # Question and Answer for pre defense
 1. why I done this project ?
 - Answer: normalize prediction system, improve outcome, bridge the gap  research and application, overcome the limitations of traditional methods. 
@@ -18,7 +29,8 @@
 - Answer: for people who find the process too complex. without clinical manifestation 
 3. How much data used & how it collected ?
 - Answer: Diabetes-768 & 9, Heart-303 & 14, Parkinson's-195 & 22 
-4. How to do preprocessing csv data? 
+4. How to do preprocessing csv data ? 
+ - `In my Project:` Statistical analysis(descriptive analysis: measure central tendency, mean, median, mode)  for understand the  distribution of data, understand dataset, eda above
  - step 1: Load dataset 
    ```sh
     import pandas as pd
@@ -69,22 +81,22 @@
    ```sh
      # Example: Extract year from a date column
      df['year'] = pd.to_datetime(df['date_column']).dt.year
-   ```
- - step 9: Remove Unnecessary Columns:
+   ``` 
+ - step 9: Remove Unnecessary Columns: 
    ```sh 
-     # Drop unnecessary columns
-     df.drop(['unnecessary_column'], axis=1, inplace=True)
-   ```
-- step-10: Save Preprocessed Data:
-   ```sh
-     # Save preprocessed data to a new CSV file
-     df.to_csv('preprocessed_data.csv', index=False)
-   ```
-5. Confusion Matrix, precision, Recall, F1-score & ROC-score: to understand the correctness of the model. 
-   - `Precision` focuses on the accuracy of positive predictions
-   - `Recall`  recall measures the completeness of positive predictions.
-   - ![Precision](images/precision_recall.png)
-   - `F1-score`
+     # Drop unnecessary columns  
+     df.drop(['unnecessary_column'], axis=1, inplace=True)  
+   ``` 
+- step-10: Save Preprocessed Data:  
+   ```sh 
+     # Save preprocessed data to a new CSV file  
+     df.to_csv('preprocessed_data.csv', index=False)    
+   ``` 
+5. Confusion Matrix, precision, Recall, F1-score & ROC-score: to understand the correctness of the model.  
+   - `Precision` focuses on the accuracy of positive predictions  
+   - `Recall`  recall measures the completeness of positive predictions. 
+   - ![Precision](images/precision_recall.png)  
+   - `F1-score`  
      -  It combines the model's precision and recall scores into a single score that represents the model's overall accuracy.
    - `ROC-score`
      - Area under the curve of the receiver operating characteristic curve 
@@ -92,28 +104,30 @@
   - ![ AUC-ROC](images/auc-roc1.png)
 6. what's MAE?
    - `Mean Absolute Error` MAE calculates the average absolute difference between the predicted and actual values.
-- Sir please consider it as minor mistake I will fix it. 
 7. Algorithms
-   - 
-# Question I can Face: 
-1. why are you working with all the disease together.
-  - I can apply similar approach for all disease like I applied same model for each disease.
-# Basic understanding 
+   - `Logistic regression` is a statistical analysis method that uses math to find relationships between data factors. It then uses this relationship to predict the value of one of those factors based on the other. 
+   - `K-Nearest Neighbor` It works by finding the K nearest points in the training dataset and uses their class to predict the class or value of a new data point. 
+   - "`SVM`, or Support Vector Machine, works by` finding the optimal hyperplane `that best separates different classes in a dataset, maximizing the margin between them for effective classification."
+- Sir please consider it as minor mistake I will fix it.  
+# Question I can Face:  
+1. why are you working with all the disease together. 
+  - I can apply similar approach for all disease like I applied same model for each disease. 
+# Basic understanding  
 - what's abstract: a concise summary of a research paper or entire thesis. 
-- `Correlation:` measures the statistical relationship between two variables.
+- `Correlation:` measures the statistical relationship between two variables. 
 -` Feature selection:` techniques in machine learning involve selecting a subset of relevant features from the original set
 - In summary, correlation is a statistical measure of the relationship between variables, and understanding this relationship is crucial for effective feature selection. By considering correlation during feature selection, one can choose a subset of features that provides the most relevant and non-redundant information for building accurate predictive models.
 - what's Introduction:  
 - What is proposed methodology in thesis? 
 - Correlation analysis helps assess the strength and direction of the linear relationship between each feature and the target variable. 
-  - Methodology refers to the overall rationale and strategy of your thesis project. It involves studying the theories or principles behind the methods used in your field so that you can explain why you chose a particular method for your research approach.
-- difference between classification vs regression vs clustering?
-- The main difference between classification and regression algorithms is the type of values they predict: 
-  - Classification: Predicts discrete values, such as "Male or Female", "True or False", and "Spam or Not Spam".
-  - Regression: Predicts continuous values, such as "price", "salary", and "age". 
-  - clustering: For data analysis 
-- ![difference between classification vs regression vs clustering](images/classification%20vs%20clustering.png) 
-- ![difference between classification vs regression vs clustering](images/Classification_Regression_Clustering.png) 
+  - Methodology refers to the overall rationale and strategy of your thesis project. It involves studying the theories or principles  behind the methods used in your field so that you can explain why you chose a particular method for your research approach.
+- difference between classification vs regression vs clustering? 
+- The main difference between classification and regression algorithms is the type of values they predict:  
+  - Classification: Predicts discrete values, such as "Male or Female", "True or False", and "Spam or Not Spam". 
+  - Regression: Predicts continuous values, such as "price", "salary", and "age".  
+  - clustering: For data analysis  
+- ![difference between classification vs regression vs clustering](images/classification%20vs%20clustering.png)  
+- ![difference between classification vs regression vs clustering](images/Classification_Regression_Clustering.png)  
 
 # how to write the paper title
 1. First give two title of the paper in chatGPT by making myself and ask for title 
@@ -301,15 +315,7 @@
 - `Disadvantages:` Not suitable for larger datasets, sensitive to noise.
 ### Step 10: Resources for Further Learning
 
-# what's EDA?
-- why?
-   - Exploratory Data Analysis (EDA) is a vital tool for data scientists that helps them understand data characteristics, detect errors, and validate assumptions. EDA is an important first step in any data analysis. 
-   - Performing EDA in machine learning typically involves preprocessing the data by handling missing values, outliers, and feature scaling
-- `my project`
-  - `correlation analysis` for understand the relation between features variable and target variable.
-  - To visualize the distribution of a dataset, I apply `histogram analysis `
-  - `box plot:` quickly identify mean values
-  - `Pairplot visualizes `given data to find the relationship between them where the variables can be continuous or categorical.
+
 # How to improve the performance in Machine Learning?
 - Improving the performance of a machine learning model involves several strategies. Here are some suggestions to potentially enhance the accuracy of your stacking ensemble model:
 
