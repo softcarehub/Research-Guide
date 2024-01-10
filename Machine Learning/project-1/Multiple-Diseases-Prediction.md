@@ -80,12 +80,21 @@
      # Save preprocessed data to a new CSV file
      df.to_csv('preprocessed_data.csv', index=False)
    ```
-5. Confusion Matrix, precision, Recall, F1-score & ROC-score
+5. Confusion Matrix, precision, Recall, F1-score & ROC-score: to understand the correctness of the model. 
    - `Precision` focuses on the accuracy of positive predictions
-   - 
+   - `Recall`  recall measures the completeness of positive predictions.
+   - ![Precision](images/precision_recall.png)
+   - `F1-score`
+     -  It combines the model's precision and recall scores into a single score that represents the model's overall accuracy.
+   - `ROC-score`
+     - Area under the curve of the receiver operating characteristic curve 
+     - AUC is a plot of the False positive Rate on the x-axis Versus The True positive Rate on the y-axis. The value of AUC range 0 to 1. A model with an AUC near 1 is considered excellent. 
+  - ![ AUC-ROC](images/auc-roc1.png)
 6. what's MAE?
-   - MAE calculates the average absolute difference between the predicted and actual values.
+   - `Mean Absolute Error` MAE calculates the average absolute difference between the predicted and actual values.
 - Sir please consider it as minor mistake I will fix it. 
+7. Algorithms
+   - 
 # Question I can Face: 
 1. why are you working with all the disease together.
   - I can apply similar approach for all disease like I applied same model for each disease.
@@ -247,11 +256,11 @@
 # Algorithm
 ## Random Forest
 - ![Random Forest](images/Random_Forest.png)
-## Adaboost algorithm
-- ![Adaboost ](images/adaboost.png)
+## Adaboost algorithm 
+- ![Adaboost ](images/adaboost.png) 
 
 ## SVM
- ### Step 1: Introduction to SVM
+ ### Step 1: Introduction to SVM 
 - Two types of SVMs are 
 1. Support Vector Machines (SVM) with different kernels, specifically the linear kernel (SVM with a linear kernel) and the radial basis function (RBF) kernel (often denoted as SVM with an RBF kernel).g
 - What's SVM?
@@ -294,8 +303,13 @@
 
 # what's EDA?
 - why?
-   - Exploratory Data Analysis (EDA) is a vital tool for data scientists that helps them understand data characteristics, detect errors, and validate assumptions. EDA is an important first step in any data analysis.
-
+   - Exploratory Data Analysis (EDA) is a vital tool for data scientists that helps them understand data characteristics, detect errors, and validate assumptions. EDA is an important first step in any data analysis. 
+   - Performing EDA in machine learning typically involves preprocessing the data by handling missing values, outliers, and feature scaling
+- `my project`
+  - `correlation analysis` for understand the relation between features variable and target variable.
+  - To visualize the distribution of a dataset, I apply `histogram analysis `
+  - `box plot:` quickly identify mean values
+  - `Pairplot visualizes `given data to find the relationship between them where the variables can be continuous or categorical.
 # How to improve the performance in Machine Learning?
 - Improving the performance of a machine learning model involves several strategies. Here are some suggestions to potentially enhance the accuracy of your stacking ensemble model:
 
