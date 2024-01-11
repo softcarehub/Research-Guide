@@ -22,26 +22,26 @@
   - `box plot:` quickly identify mean values
   - `Pairplot visualizes `given data to find the relationship between them where the variables can be continuous or categorical.
 
-# Question and Answer for pre defense
-1. why I done this project ?
-- Answer: normalize prediction system, improve outcome, bridge the gap  research and application, overcome the limitations of traditional methods. 
-2. For whom and how they can be beneficial ?
-- Answer: for people who find the process too complex. without clinical manifestation 
-3. How much data used & how it collected ?
-- Answer: Diabetes-768 & 9, Heart-303 & 14, Parkinson's-195 & 22 
+# Question and Answer for pre defense  
+1. why I done this project ? 
+- Answer: normalize prediction system, improve outcome, bridge the gap  research and application, overcome the limitations of traditional methods.   
+2. For whom and how they can be beneficial ? 
+- Answer: for people who find the process too complex. without clinical manifestation  
+3. How much data used & how it collected ? 
+- Answer: Diabetes-768 & 9, Heart-303 & 14, Parkinson's-195 & 23  
 4. How to do preprocessing csv data ? 
- - `In my Project:` Statistical analysis(descriptive analysis: measure central tendency, mean, median, mode)  for understand the  distribution of data, understand dataset, eda above
+ - `In my Project:` Statistical analysis(descriptive analysis: measure central tendency, mean, median, mode)  for understand the   distribution of data, understand dataset, eda above 
  - step 1: Load dataset 
    ```sh
     import pandas as pd
-
-    # Load CSV data into a DataFrame
-    df = pd.read_csv('your_data.csv')
-   ```
- - step 2: Explore dataset
-   ```sh
-    # Display basic information about the DataFrame
-    print(df.info())
+ 
+    # Load CSV data into a DataFrame 
+    df = pd.read_csv('your_data.csv') 
+   ``` 
+ - step 2: Explore dataset 
+   ```sh 
+    # Display basic information about the DataFrame 
+    print(df.info())  
 
     # Display summary statistics
     print(df.describe())
